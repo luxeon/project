@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>
+    $(function(){
+    $("#form").on("submit", function(){
+        $.post("/base-page.htm?form=1&" + $(this).serialize());
+        return false;
+    });
+    });
+    </script>
+</head>
+<body>
+$form
+</body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<click-app>
+
+    <pages package="com.proj.pages"/>
+    <mode value="development"/>
+
+    <headers>
+        <header name="Content-Type" value="text/html;charset=UTF-8"/>
+    </headers>
+
+</click-app>
